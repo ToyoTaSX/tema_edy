@@ -1,0 +1,41 @@
+{
+  "name": "tema-edy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лендинг кафе «Тема еды», Верхний Уфалей",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . && stylelint \"src/**/*.css\" && prettier --check \"src/**/*.{js,css}\" \"build/**/*.mjs\" \"tools/**/*.mjs\"",
+    "format": "prettier --write \"src/**/*.{js,css}\" \"build/**/*.mjs\" \"tools/**/*.mjs\"",
+    "validate": "html-validate \"dist/*.html\"",
+    "menu:data": "python3 content/raw/build_menu.py",
+    "menu:pdf": "node tools/menu-pdf/make_menu_pdf.mjs content public/menu/tema-edy-menu.pdf public/images/menu",
+    "shots": "node tools/shots.mjs",
+    "a11y": "node tools/a11y.mjs",
+    "lhci": "lhci autorun",
+    "check": "npm run lint && npm run build && npm run validate && npm run a11y && npm run e2e && node tools/check-pdf.mjs",
+    "e2e": "node tools/e2e.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@capsizecss/metrics": "3.5.0",
+    "@eslint/js": "9.39.5",
+    "@fontsource-variable/caveat": "5.1.1",
+    "@fontsource-variable/manrope": "5.1.1",
+    "@fontsource-variable/oswald": "5.1.1",
+    "@lhci/cli": "0.14.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.39.5",
+    "globals": "15.14.0",
+    "html-validate": "9.4.0",
+    "playwright": "1.49.1",
+    "postcss": "8.4.49",
+    "prettier": "3.4.2",
+    "stylelint": "16.12.0",
+    "stylelint-config-standard": "36.0.1",
+    "vite": "7.3.7"
+  }
+}

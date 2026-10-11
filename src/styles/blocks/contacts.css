@@ -1,0 +1,144 @@
+/* Контакты и карта — п. 9, 10.9 */
+.contacts__grid {
+  display: grid;
+  gap: var(--space-7);
+  align-items: start;
+}
+
+.contacts__info .section__title {
+  margin-top: var(--space-1);
+}
+
+.contacts__list {
+  display: grid;
+  gap: var(--space-5);
+  margin: var(--space-6) 0 0;
+}
+
+.contacts__row {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 0 var(--space-3);
+}
+
+.contacts__row .icon {
+  grid-row: span 2;
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+  color: var(--color-brand);
+}
+
+.contacts__row dt {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.contacts__row dd {
+  margin: 0;
+}
+
+.contacts__phone {
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.contacts__muted {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.contacts__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.copy {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: 44px;
+  margin-left: var(--space-2);
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-full);
+  background: none;
+  font-size: var(--fs-small);
+  font-weight: 600;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.copy[hidden] {
+  display: none;
+}
+
+.map {
+  position: relative;
+  min-height: 360px;
+  overflow: hidden;
+  border-radius: var(--radius-l);
+  background: repeating-linear-gradient(45deg, transparent 0 22px, rgb(138 90 51 / 6%) 22px 23px),
+    repeating-linear-gradient(-45deg, transparent 0 34px, rgb(138 90 51 / 6%) 34px 35px), var(--color-bg-alt);
+}
+
+.map__facade {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  text-align: center;
+}
+
+.map__pin {
+  width: 56px;
+  height: 56px;
+  color: var(--color-accent);
+}
+
+.map__address {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.map__links {
+  font-size: var(--fs-small);
+}
+
+.map__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.map iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width < 480px) {
+  .contacts__actions .button {
+    flex: 1 1 100%;
+  }
+}
+
+@media (width >= 1024px) {
+  .contacts__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .map {
+    min-height: 480px;
+  }
+}

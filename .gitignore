@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.lighthouseci/
+build/photos_vk/
+build/pdf/
+tests/shots/
+*.zip
+.DS_Store
+Thumbs.db
+tools/menu-pdf/package.json
+first-commit.cmd

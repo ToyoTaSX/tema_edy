@@ -1,0 +1,298 @@
+/* Доставка, банкеты, о кафе, отзывы — п. 9 */
+.steps {
+  display: grid;
+  gap: var(--gutter);
+  counter-reset: step;
+}
+
+.steps__item {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  border-radius: var(--radius-l);
+  background: var(--color-surface);
+  text-align: center;
+  counter-increment: step;
+}
+
+.steps__item::before {
+  content: counter(step);
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-4);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-border-strong);
+}
+
+.steps__icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-brand);
+}
+
+.steps__title {
+  font-size: var(--fs-h3);
+}
+
+.delivery__terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: var(--gutter);
+  margin-top: var(--gutter);
+}
+
+.delivery__note {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  max-width: 60ch;
+  margin: var(--space-5) auto 0;
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  text-align: center;
+}
+
+.delivery__note .icon {
+  margin-top: 0.15em;
+  color: var(--color-brand);
+}
+
+@media (width >= 768px) {
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Банкеты */
+.banquets__grid {
+  display: grid;
+  gap: var(--space-7);
+  align-items: center;
+}
+
+.banquets__text {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-5);
+}
+
+.banquets__text .hand {
+  margin-bottom: calc(-1 * var(--space-3));
+}
+
+.banquets__features {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.banquets__features li {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.banquets__features .icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 0.1em;
+  color: var(--color-gold);
+}
+
+.banquets__media {
+  position: relative;
+  justify-self: center;
+  width: min(80vw, 420px);
+  padding-bottom: 18%;
+}
+
+.banquets__media .plate--s {
+  position: absolute;
+  right: -6%;
+  bottom: 0;
+  width: 44%;
+}
+
+.quote {
+  margin: 0;
+  padding: var(--space-4) var(--space-5);
+  border-left: 3px solid var(--color-gold);
+  background: rgb(251 243 234 / 6%);
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+}
+
+.quote__text {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote__author {
+  margin-top: var(--space-2);
+  color: var(--color-on-dark-muted);
+  font-size: var(--fs-small);
+}
+
+.on-dark a:not(.button) {
+  color: var(--color-gold);
+}
+
+@media (width >= 1024px) {
+  .banquets__grid {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+}
+
+/* О кафе */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: var(--gutter);
+}
+
+.feature {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  text-align: center;
+}
+
+.feature__icon {
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  border-radius: 50%;
+  background: var(--color-bg-alt);
+  color: var(--color-brand);
+}
+
+.feature__title {
+  font-size: var(--fs-h3);
+}
+
+.feature__text {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  margin-top: var(--space-7);
+}
+
+.gallery__item {
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  aspect-ratio: 1;
+  border: 0;
+  border-radius: var(--radius-l);
+  background: var(--color-bg-alt);
+  cursor: zoom-in;
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease);
+}
+
+@media (hover: hover) {
+  .gallery__item:hover img {
+    transform: scale(1.04);
+  }
+}
+
+@media (width >= 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gutter);
+  }
+}
+
+/* Отзывы */
+.rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.rating__stars {
+  display: inline-flex;
+  color: var(--color-gold);
+}
+
+.rating a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.reviews__list {
+  display: grid;
+  gap: var(--gutter);
+}
+
+.review[hidden] {
+  display: none;
+}
+
+.review__fig {
+  height: 100%;
+  margin: 0;
+  padding: var(--space-5);
+  border-radius: var(--radius-l);
+  background: var(--color-surface);
+}
+
+.review__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.review__avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-bg-alt);
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.review__author {
+  display: block;
+}
+
+.review__date {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.review__text {
+  margin: var(--space-3) 0 0;
+}
+
+@media (width >= 768px) {
+  .reviews__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 1024px) {
+  .reviews__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

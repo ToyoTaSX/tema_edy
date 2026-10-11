@@ -1,0 +1,200 @@
+/* Первый экран — п. 10.3 */
+.hero {
+  padding-block: var(--space-5) var(--space-8);
+}
+
+.hero__inner {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+}
+
+.hero__media {
+  order: -1;
+  justify-self: center;
+  width: min(55vw, 35svh, 260px);
+}
+
+.hero__title {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.hero__kicker {
+  font-size: var(--fs-hand);
+}
+
+.hero__name {
+  font-size: var(--fs-display);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.hero__lead {
+  max-width: 34ch;
+  margin-top: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: var(--fs-lead);
+  line-height: 1.45;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.hero__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  margin-top: var(--space-4);
+  font-size: var(--fs-small);
+}
+
+.hero__facts li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.hero__facts .icon {
+  color: var(--color-brand);
+}
+
+.hero__facts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+@media (width < 480px) {
+  .hero__actions .button {
+    flex: 1 1 100%;
+  }
+}
+
+/* Низкие экраны (320×568, 360×640): фото меньше, чтобы «Позвонить» и статус были в первом экране */
+@media (width < 768px) and (height <= 700px) {
+  .hero {
+    padding-top: var(--space-3);
+  }
+
+  .hero__inner {
+    gap: var(--space-3);
+  }
+
+  .hero__media {
+    width: min(42vw, 24svh, 200px);
+  }
+
+  .hero__lead {
+    margin-top: var(--space-2);
+  }
+
+  .hero__actions {
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+
+  .hero__actions .button--l {
+    min-height: 52px;
+  }
+}
+
+@media (width >= 768px) {
+  .hero {
+    padding-block: var(--space-7) var(--space-9);
+  }
+
+  .hero__inner {
+    grid-template-columns: 1.15fr 1fr;
+    gap: var(--space-7);
+  }
+
+  .hero__media {
+    order: 0;
+    width: min(100%, 520px);
+  }
+}
+
+/* Статус «Открыто / Закрыто» */
+.status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+
+.status__dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-brand-light);
+}
+
+.status--open .status__dot {
+  background: var(--color-success);
+  box-shadow: 0 0 0 4px rgb(46 107 69 / 18%);
+}
+
+.status--open .status__text {
+  color: var(--color-success);
+}
+
+.status--closed .status__dot {
+  background: var(--color-border-strong);
+}
+
+/* Телефон в горизонтальной ориентации: всё главное — в 390px высоты */
+@media (orientation: landscape) and (height <= 500px) {
+  .hero {
+    padding-block: var(--space-3) var(--space-6);
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr auto;
+    gap: var(--space-5);
+  }
+
+  .hero__media {
+    order: 0;
+    width: min(60svh, 260px);
+  }
+
+  .hero__name {
+    font-size: clamp(2rem, 11svh, 3.25rem);
+  }
+
+  .hero__kicker {
+    font-size: 1.25rem;
+  }
+
+  .hero__lead {
+    margin-top: var(--space-1);
+    font-size: 1rem;
+  }
+
+  .status {
+    margin-top: var(--space-2);
+  }
+
+  .hero__actions {
+    flex-wrap: nowrap;
+    margin-top: var(--space-3);
+  }
+
+  .hero__actions .button {
+    flex: 0 1 auto;
+    min-height: 48px;
+  }
+
+  .hero__facts {
+    display: none;
+  }
+}

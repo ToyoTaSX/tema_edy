@@ -1,0 +1,209 @@
+/* Плавающая кнопка (10.12), cookie (10.13), лайтбокс (10.7), тост */
+.fab {
+  position: fixed;
+  right: var(--container-pad);
+  bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+  z-index: var(--z-fab);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: var(--fab-h);
+  padding: 0 var(--space-5);
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  box-shadow: 0 8px 24px rgb(145 52 21 / 35%);
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: uppercase;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity var(--dur-base) var(--ease),
+    transform var(--dur-base) var(--ease),
+    visibility 0s linear var(--dur-base);
+}
+
+.fab--visible {
+  visibility: visible;
+  opacity: 1;
+  transform: none;
+  transition-delay: 0s;
+}
+
+.fab .icon {
+  width: 22px;
+  height: 22px;
+}
+
+@media (hover: hover) {
+  .fab:hover {
+    background: var(--color-accent-hover);
+    color: var(--color-on-accent);
+  }
+}
+
+@media (width >= 1024px) {
+  .fab {
+    display: none;
+  }
+}
+
+.cookie {
+  position: fixed;
+  right: var(--space-3);
+  bottom: calc(var(--space-3) + env(safe-area-inset-bottom));
+  left: var(--space-3);
+  z-index: var(--z-toast);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  max-width: 560px;
+  margin-inline: auto;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-m);
+  background: var(--color-dark);
+  color: var(--color-on-dark);
+  box-shadow: var(--shadow-l);
+  font-size: var(--fs-small);
+}
+
+.cookie[hidden] {
+  display: none;
+}
+
+.cookie a {
+  color: var(--color-gold);
+}
+
+.cookie__text {
+  flex: 1 1 240px;
+}
+
+.lightbox {
+  width: min(92vw, 560px);
+  max-width: none;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: var(--radius-l);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-l);
+}
+
+.lightbox::backdrop {
+  background: rgb(46 31 18 / 75%);
+}
+
+.lightbox__fig {
+  margin: 0;
+}
+
+.lightbox__img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-l) var(--radius-l) 0 0;
+}
+
+.lightbox__caption {
+  padding: var(--space-4) var(--space-5);
+  font-weight: 700;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-m);
+  cursor: pointer;
+}
+
+.toast {
+  position: fixed;
+  bottom: calc(var(--fab-h) + var(--space-6) + env(safe-area-inset-bottom));
+  left: 50%;
+  z-index: var(--z-toast);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-full);
+  background: var(--color-success);
+  color: #fff;
+  font-weight: 600;
+  opacity: 0;
+  transform: translate(-50%, 8px);
+  transition:
+    opacity var(--dur-base) var(--ease),
+    transform var(--dur-base) var(--ease);
+  pointer-events: none;
+}
+
+.toast--visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* Служебные страницы: 404, политика */
+.page-simple {
+  display: grid;
+  min-height: 100vh;
+}
+
+.simple {
+  width: 100%;
+  max-width: calc(720px + 2 * var(--container-pad));
+  margin: 0 auto;
+  padding: var(--space-8) var(--container-pad);
+}
+
+.simple--center {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: var(--space-3);
+  text-align: center;
+}
+
+.simple__mark {
+  color: var(--color-brand);
+}
+
+.simple__title {
+  font-size: var(--fs-h2);
+}
+
+.simple__muted,
+.simple__text {
+  color: var(--color-text-muted);
+}
+
+.simple__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.prose {
+  margin-top: var(--space-6);
+}
+
+.prose h2 {
+  margin: var(--space-6) 0 var(--space-3);
+  font-size: var(--fs-h3);
+}
+
+.prose p + p {
+  margin-top: var(--space-3);
+}

@@ -1,0 +1,231 @@
+/* Шапка и навигация — п. 10.2 */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  height: var(--header-h);
+  background: var(--color-bg);
+  transition:
+    transform var(--dur-base) var(--ease),
+    box-shadow var(--dur-base) var(--ease);
+}
+
+.header--scrolled {
+  box-shadow: var(--shadow-m);
+}
+
+.header--hidden {
+  transform: translateY(-100%);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  height: 100%;
+}
+
+.header__logo {
+  display: block;
+  flex: none;
+  margin-right: auto;
+}
+
+.header__logo-img {
+  width: auto;
+  height: calc(var(--header-h) - 12px);
+}
+
+.header__call {
+  flex: none;
+  padding-inline: var(--space-4);
+}
+
+.header__call-full {
+  display: none;
+}
+
+.header__burger {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 48px;
+  height: 48px;
+  margin-right: calc(-1 * var(--space-2));
+  border: 0;
+  border-radius: var(--radius-m);
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.header__burger .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.header__burger .icon--close,
+.header__burger[aria-expanded='true'] .icon--open {
+  display: none;
+}
+
+.header__burger[aria-expanded='true'] .icon--close {
+  display: block;
+}
+
+.nav__list {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-full);
+  color: var(--color-text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav__link[aria-current='true'] {
+  color: var(--color-accent);
+}
+
+@media (hover: hover) {
+  .nav__link:hover {
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+  }
+}
+
+.nav__phone {
+  display: none;
+}
+
+/* Mobile: выезжающая панель (только когда работает JS — иначе ссылки видны строкой ниже) */
+@media (width < 1024px) {
+  .header__call {
+    min-height: 44px;
+  }
+
+  .js .nav {
+    position: fixed;
+    inset: var(--header-h) 0 0;
+    z-index: var(--z-overlay);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+    padding: var(--space-5) var(--container-pad) calc(var(--space-6) + env(safe-area-inset-bottom));
+    overflow-y: auto;
+    background: var(--color-bg);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+      opacity var(--dur-base) var(--ease),
+      transform var(--dur-base) var(--ease),
+      visibility 0s linear var(--dur-base);
+  }
+
+  .js .nav--open {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition-delay: 0s;
+  }
+
+  .js .nav__list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .js .nav__link {
+    width: 100%;
+    min-height: 56px;
+    border-bottom: 1px solid var(--color-border);
+    border-radius: 0;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .js .nav__phone {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 48px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  /* Без JS: бургер не нужен, ссылки — прокручиваемой строкой */
+  html:not(.js) .header__burger {
+    display: none;
+  }
+
+  html:not(.js) .header {
+    height: auto;
+  }
+
+  html:not(.js) .header__inner {
+    flex-wrap: wrap;
+    padding-block: var(--space-2);
+  }
+
+  html:not(.js) .nav {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+@media (width < 360px) {
+  .header__call-short {
+    display: none;
+  }
+
+  .header__call {
+    width: 44px;
+    padding: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .header__burger {
+    display: none;
+  }
+
+  .header__logo {
+    margin-right: var(--space-4);
+  }
+
+  .nav {
+    margin-right: auto;
+  }
+
+  .header__call-short {
+    display: none;
+  }
+
+  .header__call-full {
+    display: inline;
+  }
+
+  .header__call {
+    padding-inline: var(--space-5);
+  }
+}
+
+@media (orientation: landscape) and (height <= 500px) {
+  .header {
+    position: relative;
+  }
+}
+
+body.no-scroll {
+  overflow: hidden;
+}

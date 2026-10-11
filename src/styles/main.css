@@ -1,0 +1,15 @@
+@import './tokens.css';
+@import './fonts.css';
+@import './base.css';
+@import './layout.css';
+@import './blocks/icon.css';
+@import './blocks/button.css';
+@import './blocks/header.css';
+@import './blocks/hero.css';
+@import './blocks/lunch.css';
+@import './blocks/menu.css';
+@import './blocks/sections.css';
+@import './blocks/contacts.css';
+@import './blocks/footer.css';
+@import './blocks/overlays.css';
+@import './blocks/demo.css';

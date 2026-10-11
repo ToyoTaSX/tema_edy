@@ -1,0 +1,100 @@
+/* Контейнер, секции, сетка — STANDARTS.md п. 3–5 */
+.container {
+  width: 100%;
+  max-width: calc(var(--container-max) + 2 * var(--container-pad));
+  margin-inline: auto;
+  padding-inline: var(--container-pad);
+}
+
+.container--narrow {
+  max-width: calc(720px + 2 * var(--container-pad));
+}
+
+.section {
+  padding-block: var(--section-pad);
+}
+
+/* Секции ниже первого экрана браузер не раскладывает, пока они не близко к экрану (скорость, п. 12).
+   Поиск по странице и якоря при этом работают. */
+.section,
+.footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
+.section--alt {
+  background: var(--color-bg-alt);
+}
+
+.section--dark {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-dark);
+  color: var(--color-on-dark);
+}
+
+.section--dark::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--ember-glow);
+  pointer-events: none;
+}
+
+.section--dark > * {
+  position: relative;
+  z-index: 1;
+}
+
+.section__head {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  text-align: center;
+}
+
+.section__title {
+  font-size: var(--fs-h2);
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.section__lead {
+  max-width: 60ch;
+  color: var(--color-text-muted);
+  font-size: var(--fs-lead);
+  line-height: 1.5;
+}
+
+.section--dark .section__lead {
+  color: var(--color-on-dark-muted);
+}
+
+.hand {
+  font-family: var(--font-hand);
+  font-size: var(--fs-hand);
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--color-brand);
+  text-transform: none;
+}
+
+.section--dark .hand {
+  color: var(--color-gold);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gutter);
+}
+
+.stack > * + * {
+  margin-top: var(--space-4);
+}
+
+@media (width >= 1024px) {
+  .section__head {
+    margin-bottom: var(--space-7);
+  }
+}

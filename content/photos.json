@@ -1,0 +1,788 @@
+{
+  "_source": "Фото товаров группы ВК (vk.ru/market-99941253), выгружено 11.10.2026. kind: real — снимки кафе; stock_likely — похоже на стоковое фото (белый фон, студийный свет), заменить после фотосессии.",
+  "sizes": [
+    160,
+    480
+  ],
+  "formats": [
+    "webp"
+  ],
+  "photos": {
+    "4846319": {
+      "file": "images/menu/4846319",
+      "orig_w": 1080,
+      "orig_h": 764,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Бизнес-ланч"
+    },
+    "5643531": {
+      "file": "images/menu/5643531",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Комплексный обед на доставку"
+    },
+    "5378360": {
+      "file": "images/menu/5378360",
+      "orig_w": 620,
+      "orig_h": 415,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Окрошка на квасе"
+    },
+    "4846235": {
+      "file": "images/menu/4846235",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шурпа со свининой"
+    },
+    "10203806": {
+      "file": "images/menu/10203806",
+      "orig_w": 1080,
+      "orig_h": 741,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Витаминный»"
+    },
+    "5541322": {
+      "file": "images/menu/5541322",
+      "orig_w": 1080,
+      "orig_h": 835,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Летний»"
+    },
+    "10203798": {
+      "file": "images/menu/10203798",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат с морковью, сыром и чесноком"
+    },
+    "9451238": {
+      "file": "images/menu/9451238",
+      "orig_w": 1080,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Красное море»"
+    },
+    "5537330": {
+      "file": "images/menu/5537330",
+      "orig_w": 1024,
+      "orig_h": 683,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Неженка»"
+    },
+    "4846226": {
+      "file": "images/menu/4846226",
+      "orig_w": 1080,
+      "orig_h": 675,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Греческий»"
+    },
+    "4846212": {
+      "file": "images/menu/4846212",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Цезарь с курицей»"
+    },
+    "11166401": {
+      "file": "images/menu/11166401",
+      "orig_w": 900,
+      "orig_h": 600,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат с тунцом и огурцом"
+    },
+    "11169199": {
+      "file": "images/menu/11169199",
+      "orig_w": 672,
+      "orig_h": 440,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Фунчоза со свининой"
+    },
+    "4846225": {
+      "file": "images/menu/4846225",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Салат «Цезарь с креветками»"
+    },
+    "5378317": {
+      "file": "images/menu/5378317",
+      "orig_w": 540,
+      "orig_h": 810,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Вареники с творогом"
+    },
+    "5378312": {
+      "file": "images/menu/5378312",
+      "orig_w": 725,
+      "orig_h": 536,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пельмени отварные"
+    },
+    "11166131": {
+      "file": "images/menu/11166131",
+      "orig_w": 417,
+      "orig_h": 626,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Паста «Болоньезе»"
+    },
+    "4950801": {
+      "file": "images/menu/4950801",
+      "orig_w": 1080,
+      "orig_h": 660,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Паста «Карбонара»"
+    },
+    "10010445": {
+      "file": "images/menu/10010445",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Паста «Том ям с курицей»"
+    },
+    "5643537": {
+      "file": "images/menu/5643537",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Овощи на углях"
+    },
+    "5378985": {
+      "file": "images/menu/5378985",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шашлык из куриного филе"
+    },
+    "9423332": {
+      "file": "images/menu/9423332",
+      "orig_w": 1080,
+      "orig_h": 567,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Курица в беконе"
+    },
+    "5378965": {
+      "file": "images/menu/5378965",
+      "orig_w": 950,
+      "orig_h": 650,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шашлык из свинины"
+    },
+    "5644711": {
+      "file": "images/menu/5644711",
+      "orig_w": 960,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Стейк сёмги / форели"
+    },
+    "6318582": {
+      "file": "images/menu/6318582",
+      "orig_w": 540,
+      "orig_h": 960,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Комбо: стейк свинины на кости на гриле и картофель фри"
+    },
+    "6285560": {
+      "file": "images/menu/6285560",
+      "orig_w": 1080,
+      "orig_h": 810,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Сет «Деревенский»"
+    },
+    "10252196": {
+      "file": "images/menu/10252196",
+      "orig_w": 540,
+      "orig_h": 727,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Шашлык в хлебе"
+    },
+    "7897103": {
+      "file": "images/menu/7897103",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Курица на соли"
+    },
+    "6281107": {
+      "file": "images/menu/6281107",
+      "orig_w": 1080,
+      "orig_h": 718,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Сет «Люля-кебаб»"
+    },
+    "7896810": {
+      "file": "images/menu/7896810",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Маргарита»"
+    },
+    "8233747": {
+      "file": "images/menu/8233747",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «4 сыра»"
+    },
+    "10008653": {
+      "file": "images/menu/10008653",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца «Грибная»"
+    },
+    "7673283": {
+      "file": "images/menu/7673283",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Груша с мёдом»"
+    },
+    "10856247": {
+      "file": "images/menu/10856247",
+      "orig_w": 1080,
+      "orig_h": 813,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Детская с сосисками»"
+    },
+    "7017001": {
+      "file": "images/menu/7017001",
+      "orig_w": 540,
+      "orig_h": 718,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Пепперони»"
+    },
+    "7791534": {
+      "file": "images/menu/7791534",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Карбонара»"
+    },
+    "8057446": {
+      "file": "images/menu/8057446",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Пепперони с халапеньо»"
+    },
+    "7017015": {
+      "file": "images/menu/7017015",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца с ветчиной и грибами"
+    },
+    "8201044": {
+      "file": "images/menu/8201044",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца с фаршем и грибами"
+    },
+    "8031643": {
+      "file": "images/menu/8031643",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Греческая с беконом»"
+    },
+    "9071732": {
+      "file": "images/menu/9071732",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Сырный цыплёнок»"
+    },
+    "7577654": {
+      "file": "images/menu/7577654",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Фридей»"
+    },
+    "9397874": {
+      "file": "images/menu/9397874",
+      "orig_w": 540,
+      "orig_h": 599,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Цезарь»"
+    },
+    "7767559": {
+      "file": "images/menu/7767559",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца «Чиполлино»"
+    },
+    "9062403": {
+      "file": "images/menu/9062403",
+      "orig_w": 540,
+      "orig_h": 580,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца пепперони с шампиньонами и маслинами"
+    },
+    "7644838": {
+      "file": "images/menu/7644838",
+      "orig_w": 1024,
+      "orig_h": 683,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Гавайская пицца"
+    },
+    "8363210": {
+      "file": "images/menu/8363210",
+      "orig_w": 626,
+      "orig_h": 417,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца «Барбекю»"
+    },
+    "7017006": {
+      "file": "images/menu/7017006",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца «Мясное ассорти»"
+    },
+    "7551980": {
+      "file": "images/menu/7551980",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца «Охотничья»"
+    },
+    "7805432": {
+      "file": "images/menu/7805432",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Пицца с креветками и помидорами черри"
+    },
+    "11783545": {
+      "file": "images/menu/11783545",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Пицца «Том Ям» с креветками"
+    },
+    "10169938": {
+      "file": "images/menu/10169938",
+      "orig_w": 540,
+      "orig_h": 589,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Френч-дог"
+    },
+    "7930959": {
+      "file": "images/menu/7930959",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Хот-дог с сосиской"
+    },
+    "9237318": {
+      "file": "images/menu/9237318",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Сэндвич с ветчиной, сыром и свежим огурцом"
+    },
+    "8397083": {
+      "file": "images/menu/8397083",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Хот-дог с сыром и луком криспи"
+    },
+    "10124465": {
+      "file": "images/menu/10124465",
+      "orig_w": 1080,
+      "orig_h": 819,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Хот-дог с сырной кукурузой"
+    },
+    "6808126": {
+      "file": "images/menu/6808126",
+      "orig_w": 626,
+      "orig_h": 506,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Гамбургер с ветчиной и сыром"
+    },
+    "4846252": {
+      "file": "images/menu/4846252",
+      "orig_w": 1080,
+      "orig_h": 721,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Бургер с куриным филе"
+    },
+    "9035216": {
+      "file": "images/menu/9035216",
+      "orig_w": 1080,
+      "orig_h": 784,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Чикен-бургер с куриной котлетой"
+    },
+    "4950800": {
+      "file": "images/menu/4950800",
+      "orig_w": 1080,
+      "orig_h": 589,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Классический бургер"
+    },
+    "6723908": {
+      "file": "images/menu/6723908",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Чизбургер"
+    },
+    "9763011": {
+      "file": "images/menu/9763011",
+      "orig_w": 1080,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Бургер «Гавайский»"
+    },
+    "7191277": {
+      "file": "images/menu/7191277",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Бургер «Острый пепперони»"
+    },
+    "5382757": {
+      "file": "images/menu/5382757",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Бургер с беконом и жареным яйцом"
+    },
+    "8397029": {
+      "file": "images/menu/8397029",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Биг-бургер"
+    },
+    "8059627": {
+      "file": "images/menu/8059627",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Набор «Детский»"
+    },
+    "5378995": {
+      "file": "images/menu/5378995",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шаурма с курицей"
+    },
+    "6278914": {
+      "file": "images/menu/6278914",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Люля-кебаб в лаваше"
+    },
+    "5378998": {
+      "file": "images/menu/5378998",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шашлык в лаваше"
+    },
+    "8792263": {
+      "file": "images/menu/8792263",
+      "orig_w": 1080,
+      "orig_h": 667,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Греческая шаурма с курицей"
+    },
+    "8792264": {
+      "file": "images/menu/8792264",
+      "orig_w": 1080,
+      "orig_h": 667,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Греческая шаурма со свининой"
+    },
+    "6949191": {
+      "file": "images/menu/6949191",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Биг Мак Ролл"
+    },
+    "4846271": {
+      "file": "images/menu/4846271",
+      "orig_w": 1080,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Картофель фри"
+    },
+    "4846275": {
+      "file": "images/menu/4846275",
+      "orig_w": 900,
+      "orig_h": 600,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Картофельные дольки"
+    },
+    "7533023": {
+      "file": "images/menu/7533023",
+      "orig_w": 500,
+      "orig_h": 500,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Луковые кольца"
+    },
+    "4846268": {
+      "file": "images/menu/4846268",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Наггетсы"
+    },
+    "9285402": {
+      "file": "images/menu/9285402",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Креветки в кляре"
+    },
+    "5644723": {
+      "file": "images/menu/5644723",
+      "orig_w": 860,
+      "orig_h": 510,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Манная каша"
+    },
+    "5654104": {
+      "file": "images/menu/5654104",
+      "orig_w": 1000,
+      "orig_h": 655,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Яичница"
+    },
+    "5644720": {
+      "file": "images/menu/5644720",
+      "orig_w": 800,
+      "orig_h": 534,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Каша «Дружба»"
+    },
+    "7038078": {
+      "file": "images/menu/7038078",
+      "orig_w": 640,
+      "orig_h": 427,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Яичница с помидорами и луком"
+    },
+    "7038072": {
+      "file": "images/menu/7038072",
+      "orig_w": 1024,
+      "orig_h": 676,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Яичница с беконом"
+    },
+    "7038059": {
+      "file": "images/menu/7038059",
+      "orig_w": 1080,
+      "orig_h": 722,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Яичница с двумя жареными сосисками"
+    },
+    "11069417": {
+      "file": "images/menu/11069417",
+      "orig_w": 540,
+      "orig_h": 720,
+      "source": "vk_market",
+      "kind": "real",
+      "alt": "Хачапури по-аджарски"
+    },
+    "4846296": {
+      "file": "images/menu/4846296",
+      "orig_w": 1080,
+      "orig_h": 607,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Клубничный донат"
+    },
+    "4846292": {
+      "file": "images/menu/4846292",
+      "orig_w": 520,
+      "orig_h": 437,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Шоколадный донат"
+    },
+    "8397229": {
+      "file": "images/menu/8397229",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Мороженое с топпингом"
+    },
+    "5378946": {
+      "file": "images/menu/5378946",
+      "orig_w": 640,
+      "orig_h": 500,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Молочный коктейль"
+    },
+    "4846307": {
+      "file": "images/menu/4846307",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Чизкейк"
+    },
+    "5379012": {
+      "file": "images/menu/5379012",
+      "orig_w": 626,
+      "orig_h": 444,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Чай чёрный или зелёный"
+    },
+    "5643533": {
+      "file": "images/menu/5643533",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Чай с лимоном"
+    },
+    "5643535": {
+      "file": "images/menu/5643535",
+      "orig_w": 1080,
+      "orig_h": 675,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Кофе"
+    },
+    "5537272": {
+      "file": "images/menu/5537272",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Морс клюквенный"
+    },
+    "5643530": {
+      "file": "images/menu/5643530",
+      "orig_w": 540,
+      "orig_h": 767,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Сок в ассортименте"
+    },
+    "5379019": {
+      "file": "images/menu/5379019",
+      "orig_w": 750,
+      "orig_h": 468,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Кофе со сливками"
+    },
+    "5748223": {
+      "file": "images/menu/5748223",
+      "orig_w": 540,
+      "orig_h": 540,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Заварной чай в чайнике"
+    },
+    "10239021": {
+      "file": "images/menu/10239021",
+      "orig_w": 879,
+      "orig_h": 593,
+      "source": "vk_market",
+      "kind": "stock_likely",
+      "alt": "Малиновый мохито"
+    }
+  }
+}

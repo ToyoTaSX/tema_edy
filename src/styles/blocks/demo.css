@@ -1,0 +1,9 @@
+/* Плашка учебного проекта (site.demo.enabled) — одна строка над шапкой, уезжает при прокрутке */
+.demo-strip {
+  padding: var(--space-1) var(--space-4);
+  background: var(--color-dark);
+  color: var(--color-on-dark-muted);
+  font-size: var(--fs-caption);
+  line-height: 1.35;
+  text-align: center;
+}

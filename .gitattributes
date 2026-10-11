@@ -1,0 +1,11 @@
+# Одинаковые переводы строк на Windows и в CI (Prettier ждёт LF)
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+# Бинарные файлы — без преобразований
+*.woff2 binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
